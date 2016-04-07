@@ -56,7 +56,7 @@ font-size: 40px;/* se da un tamaño a la fuente elegida: ;*/
 }
 
 header{/*se asignan los atributos css para que sean tomados en el header de la pagina*/
-	background-color: teal;
+	background-color: navy;
 	margin-top: -77px;
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	height: 120px;
@@ -84,7 +84,6 @@ section{
     background-image: url(../jpg/pyg3.jpg);
     background-repeat: no-repeat;
 	width: 875px;/*ancho del section que creamos*/
-	background-color:gray;/*color de fondo declarado para el section*/
 	height: 600px;/*alto de la section*/
 	float: left;/*alineacion de los elementos section al lado izquierdo*/
 
@@ -104,18 +103,18 @@ aside{
 footer{  /*se define el diseño del piede de pagina del sitio web color, fondo, tamaño, margenes*/
 width: 1200px;
 height: 50px;
-background: darkcyan;
+background: crimson;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
 margin-bottom: 30px;
 }
 
-center {margin-top: 10px}  /*margen superior de la etiqueta center que posiciona el contenedor de la galeria de imagenes*/
+center {margin-top: -20px; padding: orange;}  /*margen superior de la etiqueta center que posiciona el contenedor de la galeria de imagenes*/
 
 iframe {
 	margin-top: 20px;  /*magen superios definida en 20 px de la galeria*/
-	background-color: black; /*color de fondo de la galeria*/
+	background-color: black;border-radius: 8px; /*color de fondo de la galeria*/
 } 
 
 p{
@@ -130,34 +129,37 @@ p{
 }
 /*se defubeb la clases y subclases que daran el diseño deseado al sirio web*/
 
-.menu a {background-color: white;color:blue;text-decoration: none;padding: 10px 20px;display: block;border-radius: 8px;box-shadow: 0 0 10px gray inset;}/*se aplican estilos a los li*/
-.menu li a:hover {background-color:white;color:red;box-shadow: 0 0 20px darkcyan inset;}/*se aplica color de fondo al pasar el mouse*/
-.menu li a:active{color:green;}/*cambia de color el enlace al dar click sobre el nombre */
+.menu a {background-color: white;color:blue;text-decoration: none;padding: 10px 20px;display: block;border-radius: 8px;box-shadow: 0 0 10px silver inset;}/*se aplican estilos a los li*/
+.menu li a:hover {background-color:white;color:red;box-shadow: 0 0 12px darkgray inset;}/*se aplica color de fondo al pasar el mouse*/
+.menu li a:active{color:orange;}/*cambia de color el enlace al dar click sobre el nombre */
 .menu > li{float: left;margin: 6px;}/*se alinean los link para que no quede como lista*/
 .menu li ul{display:none;position: absolute;min-width: 120px;}/*mantine en una posicion fija al submenu y se puede controlar el tamaño del mismo*/
 .menu li:hover >ul {display: block;}/*Se muestran los submenus que estaban ocultos*/
 
 .cabecera img {margin-top: 6px;margin-left:40px;text-decoration: none;border-radius: 8px}/*se aplican estilos a imagen del baner contenida en el heider*/
 
-.info:visited{color:white;}
+.info:visited{color:green;}
 .info:hover{color:yellow;}
 .info section section {width: 500px; height: 300px;}
-.info p{color:blue;}
+.info p{color:green;}
 
-.buscar input{margin-top: 15px; margin-left: 15px}
+.buscar input{margin-top: 15px; margin-left: 15px;text-decoration: none;border-radius: 8px}
 
 .social {
 		position:fixed ; /*damos una posicion fija al cuadro de redes sociles*/
 		left:10px; /*enviamos el cuadro a la izquieda*/
  		top:200px; /* se define una margen */
  		z-index: 2000px;  /* posicina las redes sociales pon ensimas de las demas capas*/
-} 
+ 	} 
 
 .social ul {list-style: none;}
 
 .social  img{
-		padding: 10px 15px;
-		text-decoration: none;
+padding: 10px 15px;
+margin-top: 6px;
+margin-left:40px;
+text-decoration: none;
+border-radius: 8px;
 /*aqui se aplica un tiempo para cuando se pase el curos el icono de despliegue rapido o lento.*/
 -webkit-transition: all 500ms ease;
 -o-transition: all 500ms ease;
@@ -217,7 +219,7 @@ transition: all 500ms ease;
 
 .formato{
     width: 875px;
-	background: black;
+	background: dimgray;
 	height:600px;
 	margin-top: 25px;
     margin-left: 0px;
@@ -226,7 +228,6 @@ transition: all 500ms ease;
 
 .fondo{
 	background: black;}
-	
 .formato h4{
     font-family: arial;
 	font-size: 30px;
@@ -235,8 +236,6 @@ transition: all 500ms ease;
 
 
 	
-
-
 .adopta h4 {font-family: arial;
 	font-size: 30px;
 	text-align: center;
@@ -261,11 +260,11 @@ transition: all 500ms ease;
 	color:navy;}
 
 .perritos{
-	width: 1200px;
+	width: 600px;
 	background: dimgray;
-	height:600px;
+	height:500px;
 	margin-top: 0px;
-    margin:center;
+  margin-left: 280px;
 	border-radius: 10px;
 	}
 .perritos h4{
@@ -275,11 +274,11 @@ transition: all 500ms ease;
 	color:white;}
 
 .gaticos{
-	width: 875px;
+	width: 700px;
 	background: dimgray;
 	height:600px;
 	margin-top: 0px;
-	margin-left: 150px;
+	 margin-left: 250px;
  	border-radius: 10px;
 	}
 .gaticos h4{
