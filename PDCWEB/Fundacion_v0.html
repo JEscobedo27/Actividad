@@ -16,7 +16,7 @@ modernizr.js y si hay alguna desabilitada la habilita en el buscador-- >
 </head> <!--fin etiqueta head-->
 
 <body><!--Inicio de la etiqueta body la cual contendra el cuerpo que se le de a la página-->
-       <Div id="contenidos"class="cabecera"><!--permite hacer una especie de justificacion (centrar) los elementos del cuerpo de la pagina-->
+       <Div id="contenidos"><!--permite hacer una especie de justificacion (centrar) los elementos del cuerpo de la pagina-->
 <ul class="social"> <!--inico etiqueta ul o listas desordenadas que no presentan consecutivo con un clase llamada .social-->
 <!--links de acceso a las paginas de redes socials definidas con una calses .icon y con el target se indicas que se abra una nueva ventan al momento de dar click-->
 	<li><a href="http://www.google.com"target="_blank"class="icon-google"><img src="PNG/google.png"title="ir a buscador google"></a></li>
@@ -24,8 +24,8 @@ modernizr.js y si hay alguna desabilitada la habilita en el buscador-- >
 	<li><a href="http://www.skype.com"target="_blank"class="icon-skype"><img src="PNG/skype.png"title="ir a pagina de skype"></a></li>
 	<li><a href="http://www.twitter.com/@jordian85"target="_blank"class="icon-twitter"><img src="PNG/twitter.png"title="ir a registro de twitter"></a></li>
 </ul>
-<header> <!--inico de la etiqueta header para manejo de titulos de la pagina-->  
-			<a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Fundacion_v0.html"><img src="jpg/logodecorazon.jpg"title="ir a la pagina inicio"></a>
+<header > <!--inico de la etiqueta header para manejo de titulos de la pagina-->  
+			<a class="cabecera" href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Fundacion_v0.html"><img src="jpg/logodecorazon.jpg"title="ir a la pagina inicio"></a>
 			<h1>Patitas de Corazón</h1><!-- primer titulo del encabezado de la pagina "patitas de corazon"-->
 			<h2>Adopta por su bienestar</h2><!-- Segundo titulo "Adota por su bienestar""-->
 		</header>
@@ -36,17 +36,16 @@ modernizr.js y si hay alguna desabilitada la habilita en el buscador-- >
 			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Quienes%20somos.html"target="_blank"class="menu"title="Informacion de la fundacion">¿Quienes somos?</a></li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
 			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Mision.html"target="_blank"class="menu">Misión</a></li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
 			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Vision.html"target="_blank"class="menu">Visión</a></li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
-			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Galeria.html"targer=_blank""class="menu">Galeria</a>
+			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Galeria.html"target="_blank"class="menu">Galeria</a>
 		<ul>	
-			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Galeria.html"targer="_blank"class="menu">Perros</a></li>
-			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Galeria.html"targer="_blank"class="menu">Gatos</a></li>
+			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Perritos.html"target="_blank"class="menu">Perritos</a></li>
+			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Gaticos.html"target="_blank"class="menu">Gaticos</a></li>
 			 </ul>
 		</li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
-			<li><a href=""class="menu">Adopciones</a></li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
+			<li><a href="file:///C:/Users/georg/Documents/GitHub/Actividad/PDCWEB/Adopciones.html"target="_blank"class="menu">Adopciones</a></li><!--se define el link de direccion  que va hacer parte de la lista con una clase de tipo menu-->
 			 	 </ul><!--fin etiqueta ul-->
-
-<form method="get"action="busqueda.html">
-			<input type="search"size="0"name="q"results="10"required="required"/>
+<form class="buscar" method="get"action="busqueda.html">
+			<input  type="search"size="42"name="q"results="10"required="required"/>
 			<button typy="submit">Buscar</button>
 		</form>		
 				</nav><!--fin etiqueta nav-->
@@ -60,6 +59,13 @@ modernizr.js y si hay alguna desabilitada la habilita en el buscador-- >
 			</article><!--fin de la etiqueta article-->
 
 	</section><!--fin de la etiqueta section-->
+</section><!--fin de la etiqueta section-->
+
+		<aside>
+<a class="twitter-timeline" href="https://twitter.com/twitter" data-widget-id="717578059155652608">Tweets por el @twitter.</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
 <center>	
 <iframe width="600" height="320" src="http://www.cincopa.com/media-platform/iframe.aspx?fid=AcDAfY9bZ1UG" frameborder="0" allowfullscreen 
 scrolling="no"></iframe><noscript><span>Galleria de imagenes</span><span>perros y gatos en adopcion</span><span>Gaticos 1</span>
@@ -70,13 +76,9 @@ AM</span><span>width</span><span> 1024</span><span>height</span><span> 680</span
 <span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 160</span><span>height</span><span> 120</span></noscript>	
 </center>
 
-
-
 <footer><!--inicio etiqueta fooder la cual contendra informacion del sitio en el piede de pagina-->	
 				<h3>Copyright Todos los derechos Reservados
 					<a href="http://www.enter.co"class="info"title="Informacion de contacto">CONTACTOS</a>
-					<a href="http://www.enter.co"class="info"title="Informacion de contacto">GUIA_1</a>
-					<a href="http://www.enter.co"class="info"title="Informacion de contacto">GUIA_2</a>
 				</h3>
 		</footer>
 
