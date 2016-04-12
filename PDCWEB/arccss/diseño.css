@@ -110,7 +110,7 @@ border-radius: 10px;
 margin-bottom: 30px;
 }
 
-center {margin-top: -20px; padding: orange;}  /*margen superior de la etiqueta center que posiciona el contenedor de la galeria de imagenes*/
+center {margin-top: 20px; padding: orange;}  /*margen superior de la etiqueta center que posiciona el contenedor de la galeria de imagenes*/
 
 iframe {
 	margin-top: 20px;  /*magen superios definida en 20 px de la galeria*/
@@ -138,10 +138,10 @@ p{
 
 .cabecera img {margin-top: 6px;margin-left:40px;text-decoration: none;border-radius: 8px}/*se aplican estilos a imagen del baner contenida en el heider*/
 
-.info:visited{color:green;}
-.info:hover{color:yellow;}
+.info:visited{color:blue;}
+.info:hover{color:orange;}
 .info section section {width: 500px; height: 300px;}
-.info p{color:green;}
+.info p{color:blue;}
 
 .buscar input{margin-top: 15px; margin-left: 15px;text-decoration: none;border-radius: 8px}
 
@@ -227,7 +227,7 @@ transition: all 500ms ease;
 	}
 
 .fondo{
-	background: black;}
+	background: white;}
 .formato h4{
     font-family: arial;
 	font-size: 30px;
