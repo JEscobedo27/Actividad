@@ -5,7 +5,7 @@ font-family: 'Dancing Script', cursive; (tipo de fuente 2)*/
 width: 1200px;/*tamaño de ancho de la apagina*/ 
 height:500px; /*ajueste de acuerdo al contenido*/
 background-color: lavender;
-margin-left: 130px;
+margin-left: 100px;
 border-radius: 8px;
 }
 
@@ -157,7 +157,7 @@ p{
 .social  img{
 padding: 10px 15px;
 margin-top: 6px;
-margin-left:40px;
+margin-left
 text-decoration: none;
 border-radius: 8px;
 /*aqui se aplica un tiempo para cuando se pase el curos el icono de despliegue rapido o lento.*/
